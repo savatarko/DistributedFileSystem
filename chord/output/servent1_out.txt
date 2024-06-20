@@ -1,0 +1,33 @@
+18:05:31 - Starting servent [99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1|localhost|1200]
+18:05:31 - Pausing for 40000 ms
+18:05:33 - Sending message [99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1|1200|0||PING|1100|8cf1edb2e2c86f6d2501bbd5f88d46dd079d0e23]
+18:05:34 - Got message [8cf1edb2e2c86f6d2501bbd5f88d46dd079d0e23|1100|0||PONG|1200|99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1]
+18:05:34 - Sending message [99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1|1200|1||TOKEN_REQUEST|1100|8cf1edb2e2c86f6d2501bbd5f88d46dd079d0e23]
+18:05:35 - Got message [8cf1edb2e2c86f6d2501bbd5f88d46dd079d0e23|1100|2||TOKEN|1200|99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1]
+18:05:37 - Sending message [99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1|1200|2||NEW_NODE|1100|8cf1edb2e2c86f6d2501bbd5f88d46dd079d0e23]
+18:05:37 - Got message [99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1|1200|4|localhost:1100|UPDATE|1200|99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1]
+18:05:37 - Got message [67e6399480f3ea3a5f5ba2dba3361cc17e1cb339|1400|3||TOKEN_REQUEST|1200|99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1]
+18:05:38 - Got message [8cf1edb2e2c86f6d2501bbd5f88d46dd079d0e23|1100|5||BACKUP|1200|99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1]
+18:05:38 - Sending message [99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1|1200|4|8cf1edb2e2c86f6d2501bbd5f88d46dd079d0e23|REQUEST_FILES|1100|8cf1edb2e2c86f6d2501bbd5f88d46dd079d0e23]
+18:05:39 - Sending message [99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1|1200|5||TOKEN|1400|67e6399480f3ea3a5f5ba2dba3361cc17e1cb339]
+18:05:39 - Got message [8cf1edb2e2c86f6d2501bbd5f88d46dd079d0e23|1100|7||BACKUP|1200|99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1]
+18:05:41 - Got message [67e6399480f3ea3a5f5ba2dba3361cc17e1cb339|1400|8|localhost:1100|UPDATE|1200|99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1]
+18:05:42 - Sending message [67e6399480f3ea3a5f5ba2dba3361cc17e1cb339|1400|8|localhost:1100,localhost:1200|UPDATE|1400|67e6399480f3ea3a5f5ba2dba3361cc17e1cb339]
+18:05:45 - Got message [8cf1edb2e2c86f6d2501bbd5f88d46dd079d0e23|1100|13||REMOVE_FROM_BACKUP|1200|99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1]
+18:05:45 - File test123455.txt deleted
+18:05:45 - Got message [67e6399480f3ea3a5f5ba2dba3361cc17e1cb339|1400|12||BACKUP|1200|99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1]
+18:05:47 - Got message [a58bd6099ad4703bde902afa7895758e26a86abe|1300|17||NEW_NODE|1200|99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1]
+18:05:48 - Sending message [a58bd6099ad4703bde902afa7895758e26a86abe|1300|15||NEW_NODE|1400|67e6399480f3ea3a5f5ba2dba3361cc17e1cb339]
+18:05:50 - Got message [a58bd6099ad4703bde902afa7895758e26a86abe|1300|21|localhost:1400,localhost:1100|UPDATE|1200|99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1]
+18:05:50 - File test123455.txt deleted
+18:05:52 - Sending message [a58bd6099ad4703bde902afa7895758e26a86abe|1300|19|localhost:1400,localhost:1100,localhost:1200|UPDATE|1300|a58bd6099ad4703bde902afa7895758e26a86abe]
+18:05:59 - Got message [515cc631d7525dab62063caed438af1023643d89|1600|35|localhost:1400,localhost:1100|UPDATE|1200|99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1]
+18:06:01 - Sending message [515cc631d7525dab62063caed438af1023643d89|1600|33|localhost:1400,localhost:1100,localhost:1200|UPDATE|1300|a58bd6099ad4703bde902afa7895758e26a86abe]
+18:06:06 - Sending message [99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1|1200|42|[515cc631d7525dab62063caed438af1023643d89|localhost|1600]|NODE_CHECK|1300|a58bd6099ad4703bde902afa7895758e26a86abe]
+18:06:09 - Got message [a58bd6099ad4703bde902afa7895758e26a86abe|1300|33||TOKEN_REQUEST|1200|99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1]
+18:06:12 - Pausing for 5000 ms
+18:06:12 - Got message [515cc631d7525dab62063caed438af1023643d89|1600|23||BACKUP|1200|99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1]
+18:06:14 - Got message [a58bd6099ad4703bde902afa7895758e26a86abe|1300|62||STOPPED|1200|99a4bff2ffcefb621ffbb9bca2ef7b106f2003d1]
+18:06:16 - Sending message [a58bd6099ad4703bde902afa7895758e26a86abe|1300|60||STOPPED|1300|a58bd6099ad4703bde902afa7895758e26a86abe]
+18:06:17 - Pausing for 5000 ms
+18:06:22 - Pausing for 1000000 ms

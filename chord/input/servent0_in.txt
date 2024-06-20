@@ -1,0 +1,6 @@
+pause 4000
+add_file C:/Users/KORISNIK/Desktop/faks/test123455.txt
+pause 45000
+pause 15000
+pause 1000000
+stop
